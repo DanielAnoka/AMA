@@ -7,12 +7,12 @@ const LoginScreen = ({ navigation }) => {
   const [password, setPassword] = useState();
 
   const handleLogin = () => {
-    //  implement  authentication logic here
-    if (username === 'example' && password === 'password') {
+    if (username === 'Daniel' && password === '12345') {
       Alert.alert('Login Successful');
     } else {
       Alert.alert('Login Failed', 'Invalid username or password');
     }
+    navigation.navigate('Home');
   };
 
   const navigateToSignUp = () => {

@@ -1,4 +1,3 @@
-import CheckBox from '@react-native-community/checkbox';
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Alert} from 'react-native';
 
